@@ -165,6 +165,7 @@ main {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   padding: 15px;
+  overflow: hidden;
 }
 
 .about-card img {
@@ -178,6 +179,7 @@ main {
   background: linear-gradient(to bottom, rgb(77, 0, 60), rgb(255, 0, 179));
   color: transparent;
   background-clip: text;
+  -webkit-background-clip: text;
 }
 .about-card p {
   font-size: 12px;
@@ -189,7 +191,7 @@ main {
 }
 
 .divider {
-  border: 2px solid rgb(255, 0, 153);
+  border: 0.5px solid rgb(255, 0, 153);
   width: 50%;
 }
 
