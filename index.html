@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
     <title>Estética Victoria</title>
   </head>
   <body>
@@ -19,17 +20,17 @@
     <header>
       <img src="./img/logo-estetica-2.png" alt="Logo" />
       <nav class="navbar">
+        <label for="menu-toggle" class="menu-label"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
         <ul class="navbar-list">
           <li><a href="Home">Home</a></li>
           <li><a href="#Servicios">Servicios</a></li>
           <li><a href="#Precios">Precios</a></li>
           <li><a href="#Contacto">Contacto</a></li>
         </ul>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <label for="menu-toggle" class="menu-label"
-          ><i class="fa-solid fa-bars"></i
-        ></label>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <i class="fa-solid fa-cart-shopping carrito"></i>
       </nav>
     </header>
 
@@ -154,7 +155,7 @@
               <span class="precios-text">❤️Full Deco</span>
               <span class="precios-num">$3500</span>
             </div>
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Kapping -->
           <div class="precios-card">
@@ -176,7 +177,7 @@
               <span class="precios-text">❤️Full Deco</span>
               <span class="precios-num">$6000</span>
             </div>
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD SoftGel -->
           <div class="precios-card">
@@ -198,7 +199,7 @@
               <span class="precios-text">❤️Full Deco</span>
               <span class="precios-num">$7000</span>
             </div>
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Esculpidas -->
           <div class="precios-card">
@@ -220,7 +221,7 @@
               <span class="precios-text">❤️Full Deco</span>
               <span class="precios-num">$7500</span>
             </div>
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Pedicura -->
           <div class="precios-card">
@@ -241,7 +242,7 @@
               <span class="precios-num">$7500</span>
             </div>
 
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Lifting -->
           <div class="precios-card">
@@ -262,7 +263,7 @@
               <span class="precios-num">$5000</span>
             </div>
 
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Perfilado -->
           <div class="precios-card">
@@ -290,7 +291,7 @@
               </span>
               <span class="precios-num">$5000</span>
             </div>
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Extensiones -->
           <div class="precios-card">
@@ -308,7 +309,7 @@
               <span class="precios-text">❤️Tecnológicas</span>
               <span class="precios-num">$6500</span>
             </div>
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Alisados -->
           <div class="precios-card">
@@ -326,7 +327,7 @@
               <span class="precios-text">❤️Keratina</span>
               <span class="precios-num">$6500</span>
             </div>
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
           <!-- CARD Depilacion -->
           <div class="precios-card">
@@ -340,7 +341,7 @@
               <span class="precios-num">$5000</span>
             </div>
 
-            <button class="btn">Solicitar</button>
+            <button class="btn-precios">Solicitar</button>
           </div>
         </div>
       </section>
