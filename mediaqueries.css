@@ -63,7 +63,7 @@
     font-size: 10px;
   }
   #hero img {
-    width: 200px;
+    display: none;
   }
 
   /* SERVICIOS */
