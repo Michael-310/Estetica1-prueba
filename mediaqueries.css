@@ -39,6 +39,33 @@
     display: flex;
   }
 
+  .navbar-list-user {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    transform: translateX(1000px);
+    background: rgb(255, 58, 180);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    width: 100%;
+    transition: all 1s ease;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .navbar-list-user a {
+    color: var(--text-white);
+  }
+
+  .menu-user:checked ~ .navbar-list-user {
+    /* transform: translateX(300px); */
+    transform: translateX(0);
+    transition: all 1s ease;
+  }
   /* HERO */
   #hero {
     justify-content: center;
@@ -115,5 +142,32 @@
   }
   iframe {
     width: 80%;
+  }
+}
+
+@media (max-width: 410px) {
+  .navbar {
+    gap: 0px;
+  }
+  header img {
+    width: 100px;
+  }
+  header {
+    padding: 0;
+  }
+
+  #hero p {
+    width: 90%;
+  }
+
+  textarea {
+    width: 90%;
+  }
+}
+
+/* EXTERNOS */
+@media (max-width: 992px) {
+  .formulario {
+    width: 70%;
   }
 }
